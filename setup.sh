@@ -5,3 +5,4 @@
 if [ ! -a ~/.inputrc ]; then echo '$include /etc/inputrc' > ~/.inputrc; fi
 echo 'set completion-ignore-case On' >> ~/.inputrc
 
+defaults write com.apple.iChat NSDisableAutomaticTermination -bool yes
